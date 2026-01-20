@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+
 void _stdcall OnPreCAN(const pnative_int AObj, const PLIBCAN AData) 
 {
 	AData->FData[0] = 0x00;  // Set the first data byte of the CAN message
